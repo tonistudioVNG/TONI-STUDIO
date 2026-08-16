@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Toni Studio | Quadres Artesanals</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<div class="logo">
+    TONI STUDIO
+</div>
+
+
+
+<nav>
+
+<a href="#inicio" data-key="menu-home">
+    Inici
+</a>
+
+
+<a href="#galeria" data-key="menu-gallery">
+    Obres originals
+</a>
+
+
+<a href="#contacte" data-key="menu-contact">
+    Contacte
+</a>
+
+
+</nav>
+
+
+
+
+
+<div class="idiomas">
+
+
+<button onclick="changeLanguage('ca')">
+
+<img src="images/flags/ca.png" alt="Català">
+
+CA
+
+</button>
+
+
+<button onclick="changeLanguage('es')">
+
+<img src="images/flags/es.png" alt="Español">
+
+ES
+
+</button>
+
+
+<button onclick="changeLanguage('en')">
+
+<img src="images/flags/en.png" alt="English">
+
+EN
+
+</button>
+
+
+<button onclick="changeLanguage('fr')">
+
+<img src="images/flags/fr.png" alt="Français">
+
+FR
+
+</button>
+
+
+<button onclick="changeLanguage('de')">
+
+<img src="images/flags/de.png" alt="Deutsch">
+
+DE
+
+</button>
+
+
+</div>
+
+
+</header>
+
+
+
+
+
+
+
+<main>
+
+
+
+
+
+<section class="hero" id="inicio">
+
+
+<div class="hero-content">
+
+
+
+<h1 data-key="hero-title">
+
+Toni Studio
+
+</h1>
+
+
+
+<p data-key="hero-text">
+
+Obres originals pintades a mà, amb especialitat en el realisme de paisatges rústics i urbans.
+
+</p>
+
+
+
+
+<a href="#galeria" class="btn" data-key="hero-button">
+
+Veure galeria
+
+</a>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="galeria" class="section">
+
+
+<h2 data-key="gallery-title">
+
+Obres originals
+
+</h2>
+
+
+
+<p class="subtitle" data-key="gallery-subtitle">
+
+Una selecció d'obres úniques pintades a mà.
+
+</p>
+
+
+
+
+
+<div class="gallery">
+
+
+
+
+
+
+<div class="card">
+
+
+<img src="images/gallery/Plaça de la Vila.jpg"
+alt="Plaça de la Vila"
+onclick="openImage(this.src,this.alt)">
+
+
+
+<div class="card-info">
+
+
+<h3>Plaça de la Vila</h3>
+
+<p>40 × 60 cm</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+
+<img src="images/gallery/Plaça de la Vila (Matinada).jpg"
+alt="Plaça de la Vila (Matinada)"
+onclick="openImage(this.src,this.alt)">
+
+
+
+<div class="card-info">
+
+
+<h3>Plaça de la Vila (Matinada)</h3>
+
+<p>30 × 40 cm</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+
+<img src="images/gallery/Plaça de la Vila (Vespre).jpg"
+alt="Plaça de la Vila (Vespre)"
+onclick="openImage(this.src,this.alt)">
+
+
+
+<div class="card-info">
+
+
+<h3>Plaça de la Vila (Vespre)</h3>
+
+<p>30 × 40 cm</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+
+<img src="images/gallery/Plaça de la Vila (Diürna).jpg"
+alt="Plaça de la Vila (Diürna)"
+onclick="openImage(this.src,this.alt)">
+
+
+
+<div class="card-info">
+
+
+<h3>Plaça de la Vila (Diürna)</h3>
+
+<p>30 × 40 cm</p>
+
+
+</div>
+
+
+</div>
+<div class="card">
+
+
+<img src="images/gallery/Carrer de l'església.jpg"
+alt="Carrer de l'església"
+onclick="openImage(this.src,this.alt)">
+
+
+
+<div class="card-info">
+
+
+<h3>Carrer de l'església</h3>
+
+<p>30 × 40 cm</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<img src="images/gallery/Far de Sant Cristòfol.jpg"
+alt="Far de Sant Cristòfol"
+onclick="openImage(this.src,this.alt)">
+
+
+
+<div class="card-info">
+
+
+<h3>Far de Sant Cristòfol</h3>
+
+<p>50 × 40 cm · Panoràmica</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<img src="images/gallery/Comparses de Vilanova.jpg"
+alt="Comparses de Vilanova"
+onclick="openImage(this.src,this.alt)">
+
+
+
+<div class="card-info">
+
+
+<h3>Comparses de Vilanova</h3>
+
+<p>50 × 40 cm</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<img src="images/gallery/Pasifae.jpg"
+alt="Pasifae"
+onclick="openImage(this.src,this.alt)">
+
+
+
+<div class="card-info">
+
+
+<h3>Pasifae</h3>
+
+<p>50 × 40 cm</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="contacte" class="section">
+
+
+
+<h2 data-key="contact-title">
+
+Contacte
+
+</h2>
+
+
+
+
+
+<h3 class="contact-subtitle" data-key="orders-title">
+
+Encàrrecs personalitzats
+
+</h3>
+
+
+
+
+
+<p class="contact-description" data-key="orders-text">
+
+Realitzo obres originals pintades a mà, especialitzat en el realisme de paisatges urbans i rurals.
+
+Si tens una fotografia, un lloc especial o una idea que t'agradaria convertir en una obra única, posa't en contacte amb mi.
+
+</p>
+
+
+
+
+
+
+
+<div class="contact-info">
+
+
+
+<a href="https://www.instagram.com/tonistudio.vng/"
+class="btn"
+target="_blank"
+data-key="instagram">
+
+Instagram
+
+</a>
+
+
+
+
+
+
+<a href="mailto:tu_correo"
+class="btn secondary-btn"
+data-key="email">
+
+Correu electrònic
+
+</a>
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+<div id="image-modal" class="image-modal">
+
+
+
+<span class="close-modal" onclick="closeImage()">
+
+&times;
+
+</span>
+
+
+
+
+
+<img id="modal-image" src="" alt="">
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
