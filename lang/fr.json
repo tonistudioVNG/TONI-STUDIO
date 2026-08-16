@@ -1,0 +1,22 @@
+{
+    "menu-home": "Accueil",
+    "menu-gallery": "Œuvres originales",
+    "menu-contact": "Contact",
+
+    "hero-title": "Toni Studio",
+    "hero-text": "Des œuvres originales peintes à la main, créées avec passion pour le détail et le réalisme.",
+    "hero-button": "Voir la galerie",
+
+    "gallery-title": "Œuvres originales",
+    "gallery-text": "Une sélection d’œuvres uniques peintes à la main.",
+
+    "orders-title": "Commandes personnalisées",
+    "orders-text": "Vous souhaitez une œuvre unique d’un lieu spécial ? Je réalise des commandes personnalisées en conservant le style et le réalisme caractéristique de mes œuvres.",
+    "orders-button": "Contactez-nous",
+
+    "contact-title": "Contact",
+    "contact-text": "Vous avez une question ou souhaitez parler d’une commande ? Je serai ravi d’écouter votre idée.",
+
+    "instagram": "Instagram",
+    "email": "E-mail"
+}
